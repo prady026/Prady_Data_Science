@@ -1,0 +1,131 @@
+#####################################
+#The class types we deal with are Characters/Numbers(Numeric and Integer)/Logical/Factors
+# Numeric ->Integer/character/factor
+a=10
+class(a) #return numeric
+
+b=as.integer(a)
+class(b) #return Integer # Since integer cannot take decimals, its like countable
+
+c=as.character(a)
+c
+d=as.factor(a)
+d
+#####################################
+
+#2) Creating a character
+a="firstletter9"
+a
+b='1234'
+b
+
+class(a)
+class(b)
+#####################################
+
+#3)Creating Logical variable
+a=TRUE
+b=FALSE
+c=T
+d=F
+
+class(a)
+class(b)
+class(c)
+class(d)
+
+e="TRUE" #Return a character
+class(e)
+#####################################
+
+#4) Creating a factor
+f1=factor(c("m","f","m","f"))
+class(f1)
+levels(f1)
+nlevels(f1)
+
+## f2=gl(3,10) #Generates levels of 3 each is 10 times
+## f3=gl("a",12) #Throws an error,First should be integer
+## class(f2)
+## f4=gl(2,3,length=6)
+
+#####################################
+#5) Numeric -> Factor
+x=c(0,1,1,0,0,1,1)
+class(x)
+summary(x)
+
+y=as.factor(x)
+class(y)
+summary(y)
+#####################################
+
+#6) Logic -> Factor
+x=c(T,F,T,T,F)
+class(x)
+summary(x)
+
+y=as.factor(x)
+summary(y)
+class(y)
+#####################################
+
+#7) Logic ->Numeric
+x=c(T,F,T,T,F)
+class(x)
+summary(x)
+
+y=as.numeric(x)
+summary(y)
+class(y)
+#####################################
+
+#8) Logic ->Character
+x=c(T,F,T,T,F)
+class(x)
+summary(x)
+
+y=as.character(x)
+summary(y)
+class(y)
+#####################################
+
+#9) Factor -> Chracter
+x=factor(c("T","F","T"))
+y=as.character(x)
+summary(x)
+summary(y)
+
+#####################################
+#10) Factor -> Numeric
+x=factor(c("T","F","T"))
+y=as.numeric(x)
+x
+y
+summary(x)
+summary(y)
+#####################################
+
+#11) Factor -> Logic
+x=factor(c("T","F","T"))
+y=as.logical(x)
+x
+y
+summary(x)
+summary(y)
+#####################################
+
+#12) Character to Logic/Numeric/Factor
+x=c("a","b","c")
+p=as.logical(x)
+q=as.numeric(x) # some warning
+r=as.factor(x)
+#####################################
+
+#12)Mixed Objects
+x=c(2:10,"z")
+x=c("z",2:10)
+x=c(T,F,10:13)
+x=c("a",T,FALSE)
+
+#####################################
