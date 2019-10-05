@@ -1,0 +1,46 @@
+#library (ISLR)
+install.packages("boot")
+library(boot) #cv.glm
+
+#############################################################
+#1 
+Auto=read.delim(file="D:/CARRER/My_Course/Daily Classes/Module2/9 Assessing Performance/Re-Sampling Methods/CV/Auto.csv",header=T,sep=",")
+dim(Auto)
+attach(Auto)
+
+#2 - Creating Boot function 
+boot.fn=function (data ,index ){
+	return(coef(lm(mpg~horsepower ,data=Auto ,subset =index)))
+}
+
+# With out replacing
+# boot.fn(Auto ,1:392)
+# With replacing
+# set.seed (1) #If you want to see the same result at everytime use seed statment
+# boot.fn(Auto ,sample(392,392,replace=T))
+
+# We use the boot() function to compute the standard errors of 1,000 bootstrap estimates for Beta values.
+regboot=boot(Auto ,boot.fn ,1000)
+
+#Coefficients of each sample data set take from Auto (i.e First 6) (Assume that these are our sample estimates)
+head(regboot$t)
+
+#Original Coefficients of total sample (Assume that these are our population estimates)
+regboot$t0
+
+mean(regboot$t[,1])
+mean(regboot$t[,2])
+
+#calculating Bias for Beta 0
+#39.9358610 - 39.9462 = -0.010339
+
+#calculating Bias for Beta 1
+# -0.1578447  - (-0.158076) = 0.0002313
+
+#Using regboot we can compare the bias values calculated
+var(regboot$t[,1])
+var(regboot$t[,2])
+#sd(regboot$t[,2])
+
+
+##

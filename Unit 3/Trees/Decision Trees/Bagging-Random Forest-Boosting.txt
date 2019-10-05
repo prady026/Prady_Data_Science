@@ -1,0 +1,68 @@
+#Packages
+install.packages("MASS")
+install.packages("randomForest")
+install.packages("gbm")
+
+library(randomForest)
+library(MASS)#Boston
+library(gbm)
+
+#1)Data Setup
+attach(Boston)
+head(Boston)
+
+
+#2) Bagging
+set.seed(1)
+train=sample(1:nrow(Boston),nrow(Boston)/2)
+Boston.test=Boston[-train,]
+Bag=randomForest(medv~.,data=Boston,subset=train,mtry=13,importance=TRUE)#mtry=13 is bagging
+Bag
+#3) Testing of Model for Bagging
+set.seed(1)
+train=sample(1:nrow(Boston),nrow(Boston)/2)
+Boston.test=Boston[-train,]
+Bag=randomForest(medv~.,data=Boston,subset=train,mtry=13,importance=TRUE)
+plot(Bag)
+yhat=predict(Bag,newdata=Boston.test)
+y=Boston[-train,"medv"]
+plot(y,yhat)
+abline(0,1,col=2)
+mean((y-yhat)^2)
+#importance(Bag)
+Bag=randomForest(medv~.,data=Boston,subset=train,mtry=13,ntree=25)#No.of trees=25,default=500
+Bag
+
+
+#4) Random Forest
+set.seed(1)
+train=sample(1:nrow(Boston),nrow(Boston)/2)
+Boston.test=Boston[-train,]
+Random=randomForest(medv~.,data=Boston,subset=train,mtry=6,importance=TRUE)#mtry=6 is for randome forest
+Random
+plot(Random)
+#5) Testing of Model for Random Forest
+set.seed(1)
+train=sample(1:nrow(Boston),nrow(Boston)/2)
+Boston.test=Boston[-train,]
+Random=randomForest(medv~.,data=Boston,subset=train,mtry=6,importance=TRUE)
+yhat=predict(Random,newdata=Boston.test)
+y=Boston[-train,"medv"]
+plot(y,yhat)
+abline(0,1,col=2)
+mean((y-yhat)^2)
+importance(Random)
+
+#6)Boosting
+set.seed(1)
+train=sample(1:nrow(Boston),nrow(Boston)/2)
+Boston.test=Boston[-train,]
+boost.boston=gbm(medv~.,data=Boston[train,],distribution="gaussian",n.trees=5000,interaction.depth=4)
+summary(boost.boston)
+par(mfrow=c(1,2))
+plot(boost.boston,i="rm")
+plot(boost.boston,i="lstat")
+
+#Model Prediction
+yhat.boost=predict(boost.boston,newdata = Boston[-train,],n.trees=5000)
+mean((yhat.boost-Boston[-train,14])^2)

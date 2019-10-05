@@ -1,0 +1,119 @@
+#Packages
+install.packages("car") # Partial Regression Plots and Boxtidwell
+install.packages("MASS")#Box Cox
+install.packages("qpcR")#To calculate PRESS Residual and PRESS Statistic
+install.packages("nortest") # Normality Test
+install.packages("e1071") # Normality Test
+install.packages("calibrate") # to add text in a plot
+library(car) ##boxtidwell
+library(MASS)
+library(qpcR)
+library(nortest)
+library(e1071)
+library(calibrate)
+
+
+#1)Data Set up
+Current=read.table(file="D:/CARRER/My_Course/Daily Classes/Module2/6 Transformations/Windmill.csv",header=T,sep=",")
+names(Current)
+attach(Current)
+
+#2) SLR
+## Checking the shape
+plot(WindVelocity,CurrentOutput,xlab="Wind Velocity",ylab="Current Output")
+SLR=lm(CurrentOutput~WindVelocity)
+SLR
+anova(SLR)
+summary(SLR)
+
+## check the residuals
+plot(SLR$fitted.values,rstandard(SLR),xlab="Yhat",ylab="ri",ylim=c(-3.5,3.5))
+#plot(SLR$fitted.values,SLR$residual,xlab="Yhat",ylab="Residual")
+
+#Accoriding to bulging rules, i go with first graph
+#3) Transformation
+plot(1/WindVelocity,CurrentOutput,xlab="1/Wind Velocity",ylab="Current Output")
+Trans=lm(CurrentOutput~I(1/WindVelocity))
+Trans
+anova(Trans)
+summary(Trans)
+#check the residuals
+plot(Trans$fitted.values,rstandard(Trans),xlab="Yhat",ylab="ri",ylim=c(-3.5,3.5))
+abline(h=-3,col=2)
+abline(h=3,col=2)
+
+
+#**********************************
+
+#4) Analytical Method
+# Box-Tidwell:
+# Note: Transformation  of predictor vaiable; 
+# H0:No transformation is possible,H1:Transformation possible
+# X should be +ve and categorical predictor should not be transformed.
+
+# Lets try with our previous example and will see either the results are matching or not.
+boxtidwell=boxTidwell(CurrentOutput~WindVelocity) 
+boxtidwell
+
+
+#******************
+#Box-Cox Method
+#Note: Y should be +ve and if Y is -ve,then Jhonson transformation should be used.
+
+BOXCOX=read.table(file="D:/CARRER/My_Course/Daily Classes/Module2/6 Transformations/BOXCOX.csv",header=T,sep=",")
+names(BOXCOX)
+attach(BOXCOX)
+
+plot(EnergyUsage,Demand)
+Model=lm(Demand~EnergyUsage)
+summary(Model)
+plot(Model$fitted.values,Model$residuals,xlab="Yhat",ylab="Residual",ylim=c(-3.5,3.5)) #Normal Residuals#
+plot(Model$fitted.values,rstandard(Model),xlab="Yhat",ylab="Residual",ylim=c(-3.5,3.5)) #Standardized Residuals#
+abline(h=-3,col=2)
+abline(h=3,col=2)
+#My variance is increasing over a period of time.
+
+boxtidwell=boxTidwell(Demand~EnergyUsage) 
+
+# Transforming X variable.But P is very high,So Ho is accepted i.e No transformation.So can not use this.
+# I.e No need to transform my X
+# Zfit=lm(Demand~I((EnergyUsage^1.5)))
+# plot(Zfit$fitted.values,rstandard(Zfit),xlab="Yhat-Trans",ylab="Residual")
+
+
+#So, lets try with Box cox i.e Y transformation
+# each increment with 0.5
+boxcox(Demand~EnergyUsage,lambda=seq(0,1,0.5),plotit=T)#lambda=0.1
+Trans=lm(I(Demand^0.5)~EnergyUsage)
+plot(Trans$fitted.values,rstandard(Trans),xlab="Yhat-Trans",ylab="Residual")
+
+#*************************
+
+#5) Weighted Least Square Method
+WLS=read.table(file="D:/CARRER/My_Course/Daily Classes/Module2/6 Transformations/WLS.csv",header=T,sep=",")
+names(WLS)
+attach(WLS)
+
+plot(AdExpense,Income)
+Model=lm(Income~AdExpense)
+summary(Model)
+plot(Model$fitted.values,Model$residuals,xlab="Yhat",ylab="Residual")
+plot(Model$fitted.values,rstandard(Model),xlab="Yhat",ylab="Residual",ylim=c(-3.5,3.5))
+
+boxtidwell=boxTidwell(Income~AdExpense)
+boxtidwell ##Since Lambda value =1, No transformation is applicable
+
+boxcox(Income~AdExpense,lambda=seq(0,2,0.5),plotit=T) ###Since Lambda value =1 in the same interval, No transformation is applicable
+#Both are failed, what else to do.
+
+###
+plot((AdExpense^-1),Income)
+WLS1=lm(Income~AdExpense,weights =AdExpense^-1)
+summary(WLS1)
+plot(WLS1$fitted.values,rstandard(WLS1))
+
+plot((AdExpense^-2),Income)
+WLS2=lm(Income~AdExpense,weights =AdExpense^-2)
+summary(WLS2)
+plot(WLS2$fitted.values,rstandard(WLS2))
+

@@ -1,0 +1,699 @@
+Age,Education,MaritalStatus,Race,Gender,Country,Incentives
+39, Bachelors, Never-married, White, Male, United-States,77516
+50, Bachelors,Married, White, Male, United-States,83311
+38, HS-grad, Divorced, White, Male, United-States,215646
+28, Bachelors,Married, Black, Female, Cuba,338409
+37, Masters,Married, White, Female, United-States,284582
+52, HS-grad,Married, White, Male, United-States,209642
+31, Masters, Never-married, White, Female, United-States,45781
+42, Bachelors,Married, White, Male, United-States,159449
+37, Some-college,Married, Black, Male, United-States,280464
+30, Bachelors,Married, Asian-Pac-Islander, Male, India,141297
+23, Bachelors, Never-married, White, Female, United-States,122272
+32, Assoc-acdm, Never-married, Black, Male, United-States,205019
+25, HS-grad, Never-married, White, Male, United-States,176756
+32, HS-grad, Never-married, White, Male, United-States,186824
+43, Masters, Divorced, White, Female, United-States,292175
+40, Doctorate,Married, White, Male, United-States,193524
+54, HS-grad, Separated, Black, Female, United-States,302146
+56, Bachelors,Married, White, Male, United-States,216851
+54, Some-college,Married, Asian-Pac-Islander, Male, South,180211
+39, HS-grad, Divorced, White, Male, United-States,367260
+49, HS-grad,Married, White, Male, United-States,193366
+23, Assoc-acdm, Never-married, White, Male, United-States,190709
+45, Bachelors, Divorced, White, Male, United-States,386940
+30, Some-college,Married, White, Male, United-States,59951
+48, Assoc-acdm,Married, White, Male, United-States,265477
+53, Bachelors,Married, White, Male, United-States,88506
+24, Bachelors,Married, White, Male, United-States,172987
+49, HS-grad, Separated, White, Female, United-States,94638
+25, HS-grad, Never-married, White, Male, United-States,289980
+53, HS-grad,Married, White, Male, United-States,144361
+44, Masters, Divorced, White, Female, United-States,128354
+41, Assoc-voc,Married, White, Male, United-States,101603
+29, Assoc-voc, Never-married, White, Male, United-States,271466
+25, Some-college,Married, Other, Female, United-States,32275
+47, Prof-school,Married, White, Female, Honduras,51835
+50, Bachelors, Divorced, White, Male, United-States,251585
+47, HS-grad, Divorced, White, Male, United-States,109832
+43, Some-college,Married, White, Male, United-States,237993
+35, Assoc-voc,Married, White, Male, Puerto-Rico,56352
+41, HS-grad,Married, White, Male, United-States,147372
+30, HS-grad,Married, White, Male, United-States,188146
+30, Bachelors,Married, White, Male, United-States,59496
+48, HS-grad,Married, White, Male, United-States,149640
+42, Doctorate,Married, White, Male, United-States,116632
+29, Some-college, Divorced, White, Male, United-States,105598
+36, HS-grad,Married, White, Male, United-States,155537
+28, Some-college, Divorced, White, Female, United-States,183175
+53, HS-grad,Married, White, Female, United-States,169846
+49, Some-college,Married, White, Male, United-States,191681
+25, Some-college, Never-married, White, Male, United-States,200681
+31, Bachelors, Separated, Black, Female, United-States,309974
+29, Bachelors,Married, White, Male, United-States,162298
+23, Some-college, Never-married, White, Male, United-States,211678
+27, HS-grad, Never-married, White, Male, Mexico,213921
+40, Assoc-acdm,Married, White, Male, United-States,32214
+52, Bachelors,Married, White, Male, Cuba,276515
+46, HS-grad,Married, White, Female, United-States,51618
+44, HS-grad, Divorced, White, Female, United-States,343591
+53, HS-grad, Divorced, White, Female, United-States,346253
+49, HS-grad,Married, White, Male, United-States,268234
+33, Masters,Married, White, Male, United-States,202051
+43, Doctorate, Never-married, White, Female, United-States,410867
+37, Some-college, Divorced, White, Female, United-States,286730
+28, Some-college, Divorced, Black, Female, United-States,212563
+34, Bachelors,Married, White, Male, United-States,226296
+29, Some-college, Never-married, White, Male, United-States,115585
+48, Doctorate,Married, White, Male, United-States,191277
+37, Some-college,Married, White, Male, United-States,202683
+48, Assoc-acdm, Divorced, White, Female, England,171095
+32, HS-grad, Never-married, Black, Male, United-States,249409
+44, Bachelors,Married, White, Male, United-States,198282
+47, Masters, Never-married, White, Female, United-States,149116
+29, HS-grad, Never-married, White, Male, United-States,103432
+32, HS-grad,Married, White, Male, United-States,317660
+31, HS-grad, Never-married, White, Female, United-States,189265
+42, HS-grad,Married, White, Male, United-States,124692
+24, Bachelors, Never-married, White, Male, United-States,432376
+38, Prof-school,Married, White, Male, United-States,65324
+56, HS-grad,Married, White, Male, Canada,335605
+28, Some-college,Married, White, Female, United-States,377869
+36, HS-grad, Never-married, White, Female, United-States,102864
+56, Some-college,Married, White, Male, United-States,303090
+49, Assoc-voc,Married, Black, Male, United-States,197371
+55, Some-college,Married, White, Male, United-States,247552
+40, Bachelors,Married, White, Male, United-States,118853
+30, Bachelors, Never-married, Black, Male, Germany,77143
+29, Bachelors,Married, White, Male, United-States,267989
+47, Bachelors,Married, White, Female, United-States,287828
+31, Assoc-acdm,Married, White, Male, United-States,114937
+35, HS-grad,Married, White, Male, United-States,129305
+39, Some-college, Divorced, White, Male, United-States,365739
+28, Assoc-acdm, Never-married, White, Female, United-States,69621
+24, HS-grad, Never-married, White, Female, United-States,43323
+38, HS-grad,Married, White, Male, United-States,120985
+37, Bachelors,Married, White, Male, United-States,254202
+46, Assoc-acdm, Divorced, Black, Female, United-States,146195
+38, Masters,Married, White, Male, Iran,125933
+43, HS-grad,Married, White, Male, United-States,56920
+27, Assoc-voc,Married, White, Female, United-States,163127
+49, Some-college,Married, Asian-Pac-Islander, Male, United-States,81973
+27, Some-college, Never-married, White, Female, United-States,232782
+45, Assoc-voc, Never-married, White, Female, United-States,196584
+31, HS-grad, Never-married, Black, Female, United-States,185814
+36, HS-grad, Widowed, White, Female, United-States,108293
+43, Some-college, Divorced, White, Female, United-States,174662
+47, Some-college, Divorced, White, Female, Mexico,186009
+34, HS-grad, Never-married, White, Female, United-States,198183
+33, Bachelors, Never-married, Asian-Pac-Islander, Female, Philippines,163003
+52, HS-grad, Divorced, White, Male, United-States,252903
+48, HS-grad,Married, White, Male, United-States,187715
+23, Bachelors, Never-married, White, Male, United-States,214542
+29, HS-grad, Divorced, White, Male, United-States,191535
+42, Bachelors, Separated, Black, Male, United-States,228456
+25, HS-grad, Never-married, White, Female, United-States,252752
+44, Masters, Divorced, Asian-Pac-Islander, Female, United-States,78374
+28, HS-grad, Never-married, Asian-Pac-Islander, Female, England,88419
+45, Masters,Married, White, Male, United-States,201080
+36, Some-college, Divorced, White, Female, Mexico,207157
+39, Assoc-acdm, Never-married, White, Male, United-States,235485
+46, Masters, Widowed, White, Male, United-States,102628
+27, HS-grad, Never-married, White, Male, United-States,124953
+28, HS-grad,Married, White, Male, United-States,175325
+51, Some-college,Married, White, Male, United-States,96062
+27, Bachelors, Never-married, White, Male, United-States,428030
+28, Bachelors,Married, White, Male, United-States,149624
+27, HS-grad,Married, White, Female, United-States,253814
+34, HS-grad, Never-married, Black, Male, United-States,483777
+33, Bachelors,Married, White, Male, United-States,37274
+44, Some-college,Married, Black, Male, United-States,181344
+43, Some-college, Divorced, White, Female, United-States,114580
+30, Some-college, Never-married, Black, Male, United-States,633742
+37, Some-college,Married, White, Male, United-States,29054
+34, HS-grad,Married, Black, Male, United-States,304030
+41, Bachelors, Divorced, White, Female, United-States,143129
+53, Bachelors, Divorced, White, Female, United-States,135105
+31, Masters,Married, White, Female, United-States,99928
+38, Some-college, Divorced, Black, Female, United-States,155222
+24, Some-college,Married, White, Male, United-States,159567
+41, Bachelors,Married, Black, Male, United-States,523910
+47, Some-college,Married, White, Male, United-States,120939
+41, Bachelors,Married, White, Male, United-States,130760
+36, Some-college, Divorced, White, Male, United-States,99374
+40, Masters, Never-married, White, Female, United-States,56795
+35, Masters,Married, White, Male, United-States,138992
+24, HS-grad, Never-married, White, Male, United-States,32921
+26, Masters, Never-married, White, Female, United-States,397317
+51, Bachelors,Married, White, Male, United-States,259323
+42, Some-college, Never-married, White, Female, United-States,254817
+37, HS-grad, Divorced, White, Female, United-States,48211
+36, Bachelors,Married, Black, Male, United-States,128757
+35, HS-grad, Divorced, White, Male, United-States,36270
+44, HS-grad,Married, Black, Male, United-States,160943
+37, HS-grad,Married, White, Male, United-States,208358
+35, Some-college, Never-married, Amer-Indian-Eskimo, Female, United-States,153790
+37, Bachelors, Never-married, Black, Male, United-States,635913
+50, Assoc-acdm, Divorced, White, Female, United-States,313321
+38, Bachelors,Married, White, Male, Poland,182609
+45, Bachelors,Married, White, Male, United-States,109434
+31, Some-college,Married, White, Male, United-States,197860
+54, HS-grad,Married, Black, Male, United-States,176681
+53, Preschool, Never-married, White, Female, United-States,140359
+41, HS-grad, Divorced, Black, Female, United-States,130408
+25, Some-college, Never-married, White, Male, United-States,159732
+33, Some-college, Divorced, Other, Female, United-States,110978
+28, Prof-school, Never-married, White, Male, United-States,76714
+40, Some-college, Never-married, White, Female, United-States,170525
+41, Bachelors,Married, White, Male, Iran,180138
+38, Masters,Married, White, Male, United-States,115076
+23, HS-grad, Never-married, White, Male, United-States,115458
+40, Bachelors,Married, White, Male, United-States,347890
+41, HS-grad,Married, White, Female, United-States,196001
+24, Assoc-acdm,Married, White, Male, United-States,273905
+38, Some-college, Divorced, White, Male, United-States,179488
+32, HS-grad, Never-married, White, Female, United-States,183916
+40, Assoc-acdm,Married, White, Male, United-States,207578
+41, Prof-school,Married, White, Female, United-States,112763
+42, Bachelors,Married, Black, Female, United-States,390781
+42, HS-grad,Married, Asian-Pac-Islander, Male, Cambodia,303044
+32, HS-grad, Separated, White, Female, United-States,172579
+45, Assoc-voc, Widowed, White, Female, United-States,187666
+36, Bachelors, Divorced, White, Female, United-States,150042
+45, HS-grad,Married, White, Male, United-States,98092
+37, Some-college,Married, Asian-Pac-Islander, Male, Thailand,257295
+33, Bachelors, Never-married, White, Female, United-States,185480
+33, HS-grad,Married, White, Female, United-States,222205
+50, Masters,Married, White, Male, United-States,30653
+27, Masters, Never-married, White, Male, United-States,209109
+30, HS-grad, Divorced, White, Female, United-States,70377
+43, HS-grad,Married, Black, Male, United-States,477983
+44, Some-college,Married, White, Male, United-States,170924
+35, Some-college, Never-married, White, Female, United-States,190174
+25, Some-college, Never-married, White, Female, United-States,193787
+24, Some-college,Married, White, Female, United-States,279472
+42, Some-college,Married, White, Male, United-States,97688
+34, Assoc-acdm, Divorced, Black, Female, United-States,175413
+41, Prof-school,Married, White, Male, United-States,220531
+50, Some-college, Divorced, White, Male, United-States,176609
+25, Bachelors, Never-married, White, Female, United-States,371987
+36, Bachelors,Married, White, Male, United-States,200352
+31, HS-grad, Divorced, White, Female, United-States,127595
+29, Bachelors, Never-married, White, Male, United-States,220419
+27, Bachelors, Never-married, Black, Female, United-States,248402
+37, Bachelors, Divorced, White, Female, United-States,57424
+24, HS-grad, Never-married, White, Male, United-States,278130
+38, HS-grad, Divorced, White, Male, United-States,169469
+48, Bachelors,Married, White, Male, United-States,146268
+31, HS-grad,Married, White, Male, United-States,217460
+55, HS-grad,Married, White, Male, United-States,238638
+24, Some-college,Married, Asian-Pac-Islander, Female, Laos,303296
+43, HS-grad, Divorced, White, Female, United-States,173321
+26, Assoc-acdm, Never-married, White, Male, United-States,193945
+46, Assoc-acdm, Never-married, White, Female, United-States,83082
+35, Assoc-acdm,Married, White, Male, United-States,193815
+41, Some-college,Married, White, Male, United-States,34987
+26, Bachelors, Never-married, White, Male, United-States,59306
+34, Masters,Married, Asian-Pac-Islander, Male, Taiwan,142897
+36, Bachelors, Divorced, Black, Female, United-States,205607
+24, Some-college, Never-married, White, Male, United-States,191954
+29, Some-college, Never-married, White, Female, United-States,423158
+39, HS-grad,Married, White, Male, United-States,174308
+43, Some-college,Married, White, Male, United-States,50356
+35, HS-grad, Divorced, White, Male, United-States,186110
+23, Assoc-voc, Never-married, Black, Female, United-States,211601
+43, Some-college,Married, White, Female, United-States,187728
+41, Some-college, Never-married, Black, Male, United-States,206565
+26, Bachelors, Never-married, White, Male, United-States,224563
+47, Assoc-voc, Never-married, White, Male, United-States,178686
+53, HS-grad,Married, White, Male, United-States,242606
+30, HS-grad, Never-married, White, Male, United-States,94235
+49, Masters, Never-married, White, Male, United-States,71195
+45, HS-grad,Married, Black, Male, United-States,261192
+26, Assoc-acdm, Never-married, White, Male, United-States,94936
+38, Assoc-voc,Married, White, Male, United-States,296478
+36, HS-grad,Married, White, Male, United-States,119272
+33, HS-grad, Never-married, White, Male, United-States,85043
+43, Bachelors, Never-married, White, Male, United-States,241895
+30, Assoc-voc, Divorced, White, Female, United-States,151989
+56, Assoc-acdm,Married, White, Male, Iran,101128
+31, Bachelors, Never-married, White, Male, United-States,156464
+33, Bachelors,Married, White, Male, United-States,117963
+26, HS-grad,Married, White, Male, United-States,192262
+33, Bachelors,Married, White, Male, United-States,111363
+38, HS-grad,Married, White, Male, United-States,95432
+40, Assoc-voc,Married, White, Male, United-States,96129
+42, HS-grad,Married, White, Female, United-States,111949
+43, Bachelors,Married, White, Male, United-States,180609
+43, Bachelors, Divorced, White, Male, United-States,174575
+28, HS-grad,Married, White, Male, United-States,92262
+56, Some-college,Married, White, Male, United-States,183081
+39, HS-grad, Divorced, White, Female, United-States,481060
+26, Some-college, Never-married, White, Female, United-States,185885
+40, Assoc-voc,Married, White, Male, United-States,184018
+45, HS-grad,Married, Black, Male, United-States,256649
+44, HS-grad, Never-married, Black, Male, United-States,160323
+33, HS-grad,Married, White, Female, United-States,267404
+23, Some-college, Never-married, White, Male, United-States,35633
+46, Masters, Divorced, White, Male, United-States,80914
+38, HS-grad,Married, White, Male, United-States,172927
+54, HS-grad, Divorced, White, Male, United-States,174319
+25, Some-college,Married, White, Male, United-States,344991
+46, Some-college, Divorced, White, Female, United-States,108699
+36, Some-college,Married, White, Female, United-States,117312
+23, HS-grad, Never-married, White, Female, United-States,396099
+29, HS-grad, Separated, White, Male, United-States,134152
+44, Some-college,Married, White, Female, United-States,162028
+35, HS-grad,Married, White, Female, United-States,220098
+27, Bachelors, Never-married, White, Male, United-States,301302
+46, Assoc-acdm, Separated, White, Male, United-States,277946
+34, HS-grad, Never-married, White, Female, United-States,196164
+44, Some-college,Married, White, Male, United-States,115562
+45, Some-college, Divorced, White, Female, United-States,96975
+25, Bachelors,Married, White, Male, United-States,86872
+52, Bachelors,Married, White, Male, United-States,132178
+28, Some-college, Never-married, White, Female, United-States,108574
+50, Bachelors,Married, White, Male, United-States,288353
+34, Assoc-voc, Divorced, White, Female, United-States,227689
+41, Masters,Married, White, Male, United-States,445382
+28, HS-grad,Married, White, Male, United-States,110145
+46, HS-grad,Married, White, Male, United-States,317253
+28, Some-college,Married, White, Female, United-States,123147
+32, Some-college,Married, White, Male, United-States,364657
+41, Some-college, Divorced, Black, Female, United-States,42346
+24, HS-grad, Never-married, Black, Female, United-States,241951
+33, Some-college, Divorced, White, Female, United-States,118500
+46, Doctorate,Married, White, Male, United-States,188386
+31, Some-college,Married, White, Male, United-States,1033222
+34, HS-grad, Divorced, White, Female, United-States,240283
+32, Bachelors,Married, White, Female, United-States,92003
+29, HS-grad, Divorced, White, Male, United-States,188401
+25, HS-grad,Married, White, Male, United-States,133373
+36, Masters, Never-married, White, Male, United-States,255191
+23, HS-grad, Never-married, White, Male, Dominican-Republic,204653
+47, Masters,Married, White, Male, United-States,287480
+40, Bachelors,Married, White, Female, United-States,204116
+30, Assoc-acdm,Married, White, Female, United-States,29662
+27, Some-college, Never-married, Asian-Pac-Islander, Male, Philippines,116358
+33, Masters,Married, White, Male, United-States,208405
+34, HS-grad, Never-married, Black, Male, United-States,284843
+34, Some-college, Never-married, White, Female, United-States,117018
+23, Some-college,Married, White, Male, United-States,81281
+42, Some-college,Married, White, Female, United-States,340148
+29, Bachelors, Never-married, White, Male, United-States,363425
+45, HS-grad, Divorced, White, Female, United-States,45857
+24, HS-grad, Never-married, White, Male, United-States,191073
+44, Some-college,Married, White, Male, United-States,116632
+44, HS-grad, Widowed, Black, Female, United-States,290521
+51, HS-grad,Married, Amer-Indian-Eskimo, Male, United-States,56915
+45, Some-college,Married, White, Male, United-States,197332
+44, HS-grad,Married, White, Female, United-States,234885
+40, Assoc-voc,Married, Asian-Pac-Islander, Male, United-States,72887
+30, HS-grad,Married, White, Female, United-States,180374
+38, Some-college,Married, Black, Male, United-States,351299
+23, HS-grad,Married, White, Male, United-States,54012
+32, Some-college,Married, White, Male, United-States,115745
+44, Assoc-acdm, Never-married, White, Male, United-States,116632
+54, HS-grad,Married, Black, Male, United-States,288825
+32, Bachelors,Married, White, Male, United-States,132601
+24, Bachelors, Never-married, White, Female, United-States,170070
+37, HS-grad,Married, White, Female, United-States,126708
+52, HS-grad, Divorced, White, Male, United-States,35598
+38, Some-college,Married, White, Male, United-States,33983
+49, Masters,Married, White, Male, United-States,192776
+30, Bachelors,Married, White, Female, United-States,118551
+35, HS-grad, Never-married, White, Male, United-States,285020
+30, HS-grad, Never-married, White, Male, United-States,303990
+46, Bachelors, Never-married, White, Female, United-States,279196
+23, HS-grad, Never-married, White, Female, United-States,197904
+33, Assoc-acdm,Married, White, Male, Portugal,111746
+43, Some-college,Married, White, Male, United-States,170721
+28, Bachelors, Never-married, White, Male, United-States,70100
+41, HS-grad,Married, White, Female, United-States,193626
+25, Some-college,Married, Black, Female, United-States,189775
+45, Bachelors, Divorced, White, Female, United-States,164427
+38, Bachelors,Married, White, Male, United-States,91039
+40, HS-grad, Never-married, White, Female, United-States,347934
+46, HS-grad, Divorced, White, Male, United-States,371373
+35, Assoc-acdm, Never-married, White, Female, United-States,32220
+34, HS-grad, Divorced, White, Female, United-States,187251
+33, Bachelors, Never-married, White, Male, United-States,178107
+41, HS-grad, Divorced, White, Female, United-States,343121
+26, Some-college, Never-married, White, Female, United-States,64293
+23, HS-grad, Never-married, White, Male, Poland,324960
+52, Some-college,Married, White, Male, United-States,48925
+25, Bachelors, Never-married, White, Female, United-States,181054
+24, Bachelors, Never-married, Black, Male, United-States,388093
+43, Some-college,Married, White, Male, United-States,112131
+47, HS-grad, Separated, Black, Female, United-States,543162
+39, HS-grad, Divorced, White, Female, United-States,91996
+49, Assoc-voc,Married, White, Male, United-States,141944
+32, Assoc-voc, Never-married, White, Male, United-States,37070
+34, Some-college,Married, White, Male, United-States,337587
+28, HS-grad, Divorced, White, Male, United-States,189346
+25, Some-college, Never-married, Amer-Indian-Eskimo, Female, United-States,267044
+34, Bachelors,Married, White, Male, United-States,108116
+38, Bachelors,Married, White, Male, United-States,99146
+50, HS-grad,Married, White, Male, United-States,196232
+24, Some-college, Divorced, Black, Male, United-States,248344
+37, Some-college,Married, White, Male, United-States,186035
+44, Some-college, Divorced, White, Male, United-States,177905
+28, Some-college,Married, White, Female, United-States,85812
+42, Bachelors,Married, White, Male, United-States,221172
+38, HS-grad,Married, White, Male, United-States,190387
+44, Masters,Married, White, Male, United-States,202692
+26, HS-grad, Never-married, White, Male, United-States,108658
+36, HS-grad,Married, Black, Male, United-States,197202
+41, Assoc-acdm,Married, White, Female, United-States,101739
+29, Assoc-voc, Separated, White, Male, United-States,102345
+31, Bachelors, Never-married, White, Female, United-States,41493
+34, HS-grad, Never-married, Black, Female, United-States,190027
+44, Some-college,Married, White, Male, United-States,210525
+29, Doctorate, Never-married, White, Male, United-States,133937
+30, Some-college, Never-married, White, Female, United-States,237903
+27, HS-grad, Never-married, White, Male, United-States,163862
+27, Some-college,Married, White, Male, United-States,201872
+32, HS-grad, Never-married, White, Female, United-States,84179
+35, Some-college,Married, White, Male, United-States,233327
+28, Some-college, Never-married, White, Male, United-States,184831
+46, Some-college, Divorced, White, Male, United-States,245724
+36, HS-grad, Separated, White, Female, United-States,27053
+35, HS-grad,Married, Black, Female, United-States,229328
+33, Assoc-voc, Divorced, Black, Female, United-States,319560
+35, HS-grad,Married, White, Male, United-States,54576
+34, HS-grad,Married, White, Female, United-States,148291
+28, Bachelors, Never-married, White, Male, United-States,114053
+54, Bachelors,Married, White, Male, United-States,212960
+47, Some-college,Married, White, Male, United-States,264052
+24, HS-grad, Never-married, Black, Female, United-States,82804
+52, Bachelors,Married, White, Male, United-States,334273
+43, Masters,Married, White, Male, United-States,188436
+29, HS-grad, Separated, White, Male, United-States,110663
+47, Masters, Divorced, White, Male, United-States,87490
+24, HS-grad, Never-married, White, Male, United-States,354351
+51, HS-grad,Married, White, Male, United-States,95469
+37, Assoc-voc,Married, White, Male, United-States,22463
+27, Doctorate, Never-married, White, Female, United-States,158156
+29, Bachelors,Married, White, Male, United-States,350162
+36, Assoc-acdm, Divorced, White, Female, United-States,28738
+26, Some-college,Married, White, Male, United-States,86646
+27, HS-grad,Married, White, Male, United-States,181659
+31, Bachelors, Never-married, White, Male, United-States,340939
+29, Some-college, Never-married, White, Male, United-States,34292
+42, HS-grad,Married, White, Male, United-States,137390
+55, HS-grad,Married, Asian-Pac-Islander, Female, United-States,105138
+31, Bachelors,Married, White, Male, Canada,168387
+23, Bachelors, Never-married, White, Female, United-States,117789
+27, HS-grad, Never-married, White, Male, United-States,267147
+23, Some-college, Never-married, Amer-Indian-Eskimo, Female, United-States,99399
+42, Prof-school,Married, White, Male, United-States,214242
+25, Some-college, Never-married, White, Male, United-States,200408
+49, Bachelors, Never-married, White, Female, United-States,136455
+32, Bachelors, Never-married, White, Male, United-States,239824
+35, Assoc-acdm, Never-married, White, Male, United-States,194404
+48, HS-grad, Never-married, Black, Female, United-States,45612
+51, Masters,Married, White, Male, United-States,410114
+29, HS-grad, Never-married, Amer-Indian-Eskimo, Male, United-States,182521
+36, HS-grad, Separated, Black, Male, United-States,339772
+52, Masters, Divorced, White, Female, United-States,200853
+24, HS-grad, Never-married, White, Male, United-States,247564
+24, HS-grad,Married, White, Male, United-States,249909
+26, Bachelors, Never-married, White, Male, United-States,208122
+27, Bachelors, Never-married, White, Female, United-States,109881
+39, HS-grad, Never-married, White, Male, United-States,207824
+30, HS-grad,Married, Black, Male, United-States,369027
+50, HS-grad,Married, White, Male, United-States,114117
+52, Bachelors,Married, White, Male, United-States,51048
+46, Prof-school,Married, White, Male, United-States,102388
+23, Bachelors, Never-married, White, Female, United-States,190483
+29, Assoc-voc,Married, White, Male, United-States,34383
+30, HS-grad, Never-married, Black, Male, United-States,124187
+34, HS-grad,Married, White, Male, United-States,153614
+38, HS-grad,Married, White, Male, United-States,267556
+33, Some-college,Married, White, Male, United-States,205469
+49, Bachelors,Married, White, Male, United-States,268090
+47, Some-college, Never-married, Black, Female, United-States,165039
+43, Some-college,Married, White, Male, United-States,154374
+30, Bachelors,Married, Black, Female, United-States,103649
+33, Bachelors,Married, White, Male, United-States,175697
+52, Doctorate,Married, White, Male, United-States,289436
+26, HS-grad, Divorced, White, Male, United-States,75654
+36, Some-college,Married, White, Male, United-States,188563
+31, Some-college,Married, White, Male, United-States,55849
+50, Doctorate, Separated, White, Male, United-States,195322
+31, HS-grad, Divorced, White, Female, United-States,402089
+30, Bachelors,Married, White, Male, United-States,169496
+24, HS-grad, Never-married, White, Male, United-States,556660
+35, Doctorate,Married, Asian-Pac-Islander, Male, Taiwan,292472
+38, Some-college, Separated, White, Female, United-States,143774
+27, HS-grad, Never-married, White, Female, United-States,288341
+29, Some-college, Never-married, Asian-Pac-Islander, Female, Philippines,71592
+34, HS-grad,Married, White, Male, United-States,106742
+43, HS-grad,Married, White, Male, United-States,174524
+35, Masters, Never-married, White, Male, United-States,261293
+27, Some-college, Never-married, White, Male, United-States,111900
+43, Masters, Never-married, White, Male, United-States,194360
+42, Assoc-acdm, Divorced, White, Female, United-States,341204
+27, Some-college,Married, White, Male, United-States,249362
+42, HS-grad,Married, Black, Male, United-States,247019
+48, Some-college, Divorced, White, Male, United-States,110457
+33, Bachelors,Married, White, Male, United-States,182556
+50, HS-grad,Married, White, Male, United-States,219420
+32, Some-college,Married, White, Male, Mexico,226267
+31, HS-grad, Never-married, White, Male, United-States,125457
+29, HS-grad, Never-married, White, Male, United-States,92262
+37, Assoc-voc,Married, White, Male, Portugal,161141
+34, HS-grad,Married, White, Male, United-States,190290
+23, Some-college, Separated, Black, Male, United-States,430828
+34, HS-grad, Divorced, White, Female, United-States,136721
+45, Bachelors,Married, White, Female, United-States,86644
+41, Masters, Never-married, White, Male, Dominican-Republic,195124
+26, HS-grad, Never-married, White, Male, United-States,167350
+54, Some-college,Married, White, Male, United-States,113000
+24, Some-college, Never-married, Black, Female, United-States,140027
+42, Some-college,Married, White, Male, United-States,262425
+23, Bachelors, Never-married, White, Female, United-States,335453
+25, Assoc-acdm, Never-married, White, Male, United-States,202480
+35, Masters, Never-married, White, Male, United-States,203628
+31, Masters,Married, White, Male, United-States,118710
+30, Bachelors, Never-married, White, Female, Poland,189620
+36, Bachelors, Never-married, White, Male, United-States,110866
+31, Bachelors, Widowed, White, Female, Cuba,243605
+31, Some-college,Married, White, Male, United-States,80145
+46, Doctorate, Divorced, White, Female, United-States,295566
+44, Bachelors, Divorced, White, Female, United-States,63042
+45, Some-college, Never-married, Black, Male, United-States,242552
+28, Bachelors,Married, White, Male, United-States,296450
+36, Some-college, Divorced, Black, Female, United-States,70282
+40, Assoc-voc,Married, White, Male, United-States,144995
+36, Bachelors, Divorced, White, Female, Honduras,382635
+31, HS-grad, Separated, Black, Female, United-States,295697
+33, HS-grad,Married, White, Male, United-States,194141
+34, Bachelors,Married, White, Male, United-States,217460
+33, HS-grad, Never-married, White, Male, United-States,182556
+41, HS-grad,Married, White, Male, United-States,125831
+29, Bachelors, Never-married, White, Male, United-States,271328
+50, HS-grad,Married, White, Male, United-States,50459
+42, Bachelors,Married, White, Male, United-States,162140
+44, HS-grad,Married, White, Female, United-States,111502
+31, HS-grad,Married, White, Male, Mexico,223212
+23, Some-college, Never-married, White, Female, United-States,352139
+55, Some-college, Divorced, Asian-Pac-Islander, Female, United-States,173093
+26, Assoc-voc,Married, White, Male, United-States,181655
+25, Assoc-voc, Never-married, White, Female, United-States,332702
+45, Some-college,Married, Black, Female, United-States,51164
+35, Some-college,Married, White, Male, United-States,234901
+36, Some-college, Never-married, Black, Female, United-States,131414
+43, Bachelors,Married, White, Male, United-States,260960
+56, HS-grad, Widowed, Black, Female, United-States,156052
+42, Bachelors,Married, White, Male, United-States,279914
+55, HS-grad,Married, White, Male, United-States,200939
+42, Masters, Never-married, White, Female, United-States,151408
+26, Assoc-voc, Never-married, White, Male, United-States,112847
+42, Bachelors,Married, White, Female, United-States,126319
+55, HS-grad,Married, White, Male, United-States,197422
+32, Some-college, Never-married, Black, Female, United-States,267736
+46, Bachelors,Married, White, Male, United-States,193047
+29, Bachelors,Married, White, Male, United-States,356089
+23, HS-grad, Never-married, White, Male, United-States,145111
+39, HS-grad, Never-married, White, Male, United-States,48093
+27, Assoc-voc, Never-married, White, Male, United-States,31757
+54, HS-grad,Married, White, Male, United-States,285854
+33, Bachelors, Never-married, White, Female, United-States,120064
+46, HS-grad,Married, White, Female, United-States,167381
+37, HS-grad, Never-married, Black, Male, United-States,103408
+36, HS-grad, Never-married, White, Female, United-States,101460
+34, HS-grad, Divorced, White, Male, Portugal,119411
+53, Doctorate,Married, White, Male, United-States,128272
+51, Bachelors, Never-married, White, Male, United-States,386773
+31, Some-college,Married, White, Male, United-States,301526
+47, Bachelors, Divorced, White, Female, United-States,106252
+32, HS-grad, Never-married, White, Male, United-States,188557
+26, Some-college, Never-married, White, Female, United-States,171114
+31, HS-grad, Divorced, White, Male, United-States,244147
+37, Assoc-voc,Married, White, Female, United-States,280282
+55, HS-grad, Never-married, White, Male, United-States,116442
+23, Assoc-voc, Divorced, White, Male, United-States,282579
+36, Some-college, Divorced, White, Female, United-States,51838
+43, Bachelors,Married, White, Male, United-States,226902
+54, Some-college, Never-married, White, Male, United-States,279129
+28, Assoc-voc, Never-married, White, Female, United-States,196690
+40, Assoc-voc,Married, White, Male, United-States,130760
+41, Some-college,Married, White, Male, United-States,49572
+40, Bachelors, Never-married, Other, Female, United-States,237601
+42, Some-college, Divorced, Black, Female, United-States,169628
+48, Assoc-voc,Married, White, Male, United-States,102102
+41, Bachelors,Married, White, Male, United-States,32185
+23, HS-grad, Never-married, White, Female, United-States,211046
+25, HS-grad, Never-married, Black, Male, United-States,316688
+46, Masters, Never-married, White, Male, United-States,90758
+43, Bachelors,Married, White, Male, England,274363
+43, Assoc-acdm, Divorced, White, Male, United-States,154538
+24, HS-grad, Never-married, Black, Male, United-States,106085
+31, HS-grad, Divorced, White, Female, United-States,51471
+32, HS-grad,Married, White, Male, United-States,231043
+50, Masters,Married, White, Male, United-States,23780
+33, Bachelors,Married, White, Male, United-States,169879
+30, HS-grad, Separated, White, Female, United-States,191571
+43, Some-college, Divorced, White, Male, United-States,94113
+47, HS-grad,Married, White, Female, Italy,93208
+41, Assoc-voc, Never-married, White, Female, United-States,254440
+56, Some-college,Married, White, Male, United-States,186556
+47, HS-grad,Married, White, Male, United-States,191277
+48, Assoc-voc, Never-married, White, Male, United-States,167159
+31, Masters, Never-married, White, Female, United-States,171871
+29, Assoc-voc, Never-married, White, Male, United-States,154411
+30, HS-grad, Widowed, White, Female, United-States,129227
+32, HS-grad,Married, White, Male, United-States,110331
+39, HS-grad, Separated, White, Female, United-States,680390
+43, Some-college, Never-married, White, Male, United-States,233130
+24, Bachelors, Never-married, White, Male, United-States,165474
+53, Some-college,Married, White, Female, United-States,194259
+26, Some-college, Never-married, White, Male, United-States,280093
+55, HS-grad,Married, White, Male, United-States,105304
+25, HS-grad, Divorced, White, Male, United-States,499233
+41, Bachelors, Divorced, White, Female, United-States,180572
+24, Bachelors, Never-married, White, Male, United-States,321435
+35, Some-college,Married, White, Male, United-States,135162
+51, Some-college,Married, White, Male, United-States,146813
+55, HS-grad,Married, White, Male, United-States,387569
+43, Some-college, Divorced, White, Male, United-States,102895
+40, HS-grad, Divorced, White, Female, United-States,33274
+37, Bachelors,Married, White, Male, United-States,86551
+39, Bachelors,Married, White, Male, United-States,138192
+31, HS-grad, Never-married, White, Male, United-States,118966
+26, Assoc-voc, Divorced, White, Female, United-States,90980
+46, HS-grad,Married, White, Male, United-States,177407
+26, Bachelors, Never-married, White, Female, United-States,96467
+48, Doctorate, Divorced, White, Male, United-States,327886
+34, HS-grad, Never-married, White, Male, United-States,111567
+34, HS-grad, Never-married, White, Female, United-States,166545
+34, Bachelors, Never-married, White, Female, United-States,188798
+49, Bachelors, Never-married, White, Female, United-States,38563
+43, HS-grad,Married, White, Male, Mexico,191547
+28, Some-college,Married, White, Male, United-States,142712
+33, HS-grad,Married, White, Male, United-States,80945
+24, Some-college, Never-married, White, Female, United-States,309055
+39, Some-college,Married, White, Male, United-States,176186
+29, Bachelors, Separated, White, Male, United-States,266855
+44, Bachelors,Married, White, Male, United-States,48087
+24, Some-college, Never-married, White, Male, United-States,121313
+51, Bachelors,Married, Asian-Pac-Islander, Male, China,160724
+41, Bachelors,Married, White, Male, United-States,194636
+23, HS-grad, Never-married, Black, Female, United-States,153044
+38, Assoc-voc, Divorced, White, Female, United-States,411797
+39, HS-grad,Married, White, Male, United-States,117683
+32, Bachelors,Married, White, Male, Philippines,270335
+27, HS-grad,Married, White, Male, United-States,96226
+38, Bachelors,Married, White, Male, United-States,95336
+33, Some-college,Married, White, Female, United-States,258498
+23, Bachelors, Never-married, White, Male, United-States,205865
+54, HS-grad,Married, Black, Male, United-States,406468
+29, Assoc-voc, Divorced, White, Female, United-States,177119
+48, Some-college, Divorced, Black, Female, United-States,144397
+35, Bachelors, Never-married, White, Male, United-States,372525
+28, Assoc-voc,Married, Asian-Pac-Islander, Female, India,164170
+37, Bachelors,Married, White, Male, United-States,183800
+42, Prof-school,Married, White, Male, United-States,177307
+40, Masters,Married, White, Male, United-States,170108
+47, Some-college, Divorced, White, Male, United-States,341995
+30, Bachelors,Married, White, Male, United-States,87418
+28, HS-grad,Married, White, Male, United-States,109165
+27, Assoc-acdm,Married, Amer-Indian-Eskimo, Male, United-States,90270
+35, HS-grad, Never-married, White, Male, United-States,152375
+46, HS-grad, Divorced, White, Female, United-States,171550
+37, Some-college, Divorced, White, Male, United-States,211154
+24, Bachelors, Never-married, Black, Male, United-States,202570
+37, HS-grad, Divorced, White, Male, United-States,168496
+53, Some-college,Married, White, Male, United-States,68898
+27, HS-grad, Never-married, White, Male, United-States,93235
+38, Some-college, Divorced, White, Male, United-States,278924
+34, Some-college, Never-married, White, Male, United-States,175878
+23, HS-grad, Never-married, Black, Male, United-States,543028
+39, Bachelors,Married, White, Male, United-States,202027
+43, Masters,Married, Asian-Pac-Islander, Female, South,158926
+23, Some-college, Never-married, White, Male, United-States,257509
+25, Some-college, Never-married, White, Male, United-States,98155
+38, Some-college,Married, Black, Female, United-States,97083
+32, HS-grad,Married, White, Male, United-States,262153
+37, HS-grad,Married, White, Male, United-States,214738
+51, Masters,Married, White, Male, United-States,138022
+42, HS-grad, Divorced, White, Male, United-States,162003
+51, Preschool,Married, White, Male, United-States,241843
+23, HS-grad,Married, White, Female, Mexico,375871
+37, HS-grad,Married, White, Male, United-States,176900
+47, Masters, Never-married, White, Female, United-States,21906
+41, Prof-school,Married, White, Male, United-States,132222
+33, HS-grad,Married, White, Male, United-States,143653
+31, Bachelors, Never-married, White, Male, United-States,111567
+31, Assoc-acdm, Divorced, Amer-Indian-Eskimo, Female, United-States,78602
+35, HS-grad,Married, Black, Male, United-States,465507
+38, HS-grad,Married, White, Male, United-States,196373
+54, Some-college, Divorced, Black, Female, United-States,166398
+40, Some-college, Divorced, White, Female, United-States,184682
+36, Bachelors,Married, White, Female, United-States,108293
+43, Some-college, Divorced, White, Male, United-States,250802
+44, Some-college, Divorced, White, Male, United-States,325159
+44, HS-grad,Married, White, Female, United-States,174675
+43, Masters,Married, White, Male, United-States,227065
+51, Some-college,Married, White, Male, United-States,133461
+44, Some-college,Married, White, Male, United-States,398473
+33, Bachelors,Married, White, Male, United-States,123424
+42, Assoc-acdm,Married, White, Male, United-States,176286
+25, Some-college,Married, White, Male, United-States,150062
+32, HS-grad, Divorced, White, Female, United-States,169240
+32, Bachelors,Married, White, Male, Mexico,288273
+28, HS-grad,Married, White, Male, United-States,57066
+35, Some-college,Married, White, Male, United-States,368825
+55, HS-grad,Married, White, Male, United-States,189721
+48, Bachelors,Married, Asian-Pac-Islander, Male, India,164966
+36, Assoc-voc, Widowed, White, Female, United-States,94954
+34, HS-grad,Married, White, Male, United-States,202046
+28, Bachelors, Never-married, White, Female, United-States,161538
+37, HS-grad,Married, White, Male, United-States,200153
+44, HS-grad, Never-married, White, Male, United-States,32185
+25, Some-college, Never-married, White, Female, United-States,178326
+40, Masters,Married, White, Male, United-States,188693
+34, HS-grad, Divorced, White, Male, United-States,159929
+49, HS-grad, Never-married, White, Female, United-States,123207
+23, HS-grad, Never-married, Black, Female, United-States,184699
+45, HS-grad, Widowed, White, Male, United-States,318280
+41, HS-grad, Never-married, Black, Female, United-States,349221
+47, HS-grad, Divorced, White, Female, United-States,335973
+44, HS-grad, Divorced, White, Male, United-States,126701
+51, Some-college, Widowed, White, Female, United-States,122159
+46, Bachelors, Never-married, White, Male, United-States,187370
+41, Assoc-voc,Married, White, Male, United-States,194636
+50, HS-grad,Married, White, Male, United-States,124793
+47, HS-grad,Married, White, Male, United-States,192835
+35, HS-grad, Never-married, White, Male, United-States,290226
+56, HS-grad,Married, White, Male, United-States,112840
+45, Masters, Divorced, White, Male, United-States,89325
+48, Bachelors, Divorced, White, Male, United-States,33109
+40, Some-college,Married, White, Male, United-States,82465
+39, Bachelors,Married, White, Male, United-States,329980
+50, Doctorate,Married, White, Male, United-States,168212
+38, HS-grad,Married, White, Female, United-States,343642
+23, Bachelors, Never-married, White, Female, United-States,115244
+31, HS-grad, Never-married, White, Male, United-States,162572
+39, HS-grad,Married, White, Male, United-States,180804

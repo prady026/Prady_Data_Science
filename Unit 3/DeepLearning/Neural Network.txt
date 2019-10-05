@@ -1,0 +1,90 @@
+$Package;
+install.packages("neuralnet") #nnet also can be used.
+install.packages("gmodels")
+
+library(neuralnet)
+library(gmodels)
+
+
+
+############Response is quantitative################## - continous
+
+#1)Data Setup
+Concrete=read.delim(file="D:/CARRER/My_Course/Daily Classes/Module3/1 Nueral Network/concrete-NeuralNetwork.csv",header=T,sep=",")
+names(Concrete)
+attach(Concrete)
+dim(Concrete)
+Concrete
+
+#2) Normalize the data
+Normalize=function(x){
+return((x-min(x))/(max(x)-min(x)))
+}
+concrete_norm=as.data.frame(apply(Concrete,MARGIN=2,Normalize))
+
+#3)Create train and test data
+concrete_train=concrete_norm[1:773,]
+concrete_test=concrete_norm[774:1030,]
+
+#4) Building model
+concrete_model=neuralnet(strength~cement+slag+ash+water+superplastic+coarseagg+fineagg+age,data=concrete_train)#strength~. will not work
+plot(concrete_model)
+
+#5)Model performance
+#compute is doing the same as predict
+model_result=compute(concrete_model,concrete_test[,1:8])
+predicted_strength=model_result$net.result
+cor(predicted_strength,concrete_test[,9])
+
+#6)Improving model performance
+concrete_model_2=neuralnet(strength~cement+slag +ash+water+superplastic+coarseagg+fineagg+age,data=concrete_train,hidden=5)
+plot(concrete_model_2)
+
+#7)Model performance
+model_result_2=compute(concrete_model_2,concrete_test[,1:8])
+predicted_strength_2=model_result_2$net.result
+cor(predicted_strength_2,concrete_test[,9])
+########################################
+
+#concrete_model_2=neuralnet(strength~cement+slag +ash+water+superplastic+coarseagg+fineagg+age,data=concrete_train,hidden=c(4,3,2))
+#By default it was taking logistic/sigmoidal function
+
+
+
+############Response is qualitative################## - categorical
+1)Data Setup
+infert
+dim(infert)
+str(infert)
+
+Q=infert[,2:6]
+attach(Q)
+Q
+dim(Q)
+
+#2) Normalize the data
+Normalize=function(x){
+return((x-min(x))/(max(x)-min(x)))
+}
+Q_norm=as.data.frame(apply(Q,MARGIN=2,Normalize))
+
+#3)Create train and test data
+Q_train=Q_norm[1:175,]
+Q_test=Q_norm[176:248,]
+Q_train$infertile=Q_train$case==1
+Q_train$non_infertile=Q_train$case==0
+
+
+#4) Building model
+Q_model=neuralnet(infertile+non_infertile~age+parity+induced+spontaneous,data=Q_train,hidden=2,err.fct="ce",linear.out=F)
+#err.fct="ce",ce=Cross entropy,default is sse
+#Cross entropy is related to how to calculate y - yhat
+#Activation function should be applied ->linear.out=F
+plot(Q_model)
+
+#5)Model performance
+Q_result=compute(Q_model,Q_test[,-4])
+predicted_case=Q_result$net.result
+prediction=c(1,0)[apply(predicted_case,1,which.max)]
+mean(Q_test[,4]==prediction)
+
