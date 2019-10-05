@@ -1,0 +1,68 @@
+#we are going to look at weather data from various cities and see how group by can be used to run some analytics.
+
+import pandas as pd
+df = pd.read_csv("D:/CARRER/My_Course/Daily Classes/Python_Classes/2 Numpy_Pandas/2 Pandas/weather_by_cities.csv")
+df
+
+# For this dataset, get following answers,
+# 1. What was the maximum temperature in each of these 3 cities?
+# 2. What was the average windspeed in each of these 3 cities?
+
+g = df.groupby("city")
+g
+
+## working on grouping using dicrete variable 
+# You can use any word instead of data to pull information
+for city, data in g:
+    print("city:",city)
+    print("\n")
+    print(" ",data)
+    print("\n")
+
+
+g.get_group('mumbai')
+
+g.max()
+
+g.mean()
+g["temperature"].mean()
+
+g.min()
+
+g.describe()
+
+g.size()
+
+g.count()
+
+
+"""
+%matplotlib inline
+g.plot()
+
+
+## working on grouping using continous variable 
+
+# Group data using custom function: Let's say you want to group your data using custom function. Here the requirement is to create three groups
+# Days when temperature was between 80 and 90
+# Days when it was between 50 and 60
+# Days when it was anything else
+# For this you need to write custom grouping function and pass that to groupby
+
+def grouper(df, idx, col):
+    if 80 <= df[col].loc[idx] <= 90:
+        return '80-90'
+    elif 50 <= df[col].loc[idx] <= 60:
+        return '50-60'
+    else:
+        return 'others'
+
+g = df.groupby(lambda x: grouper(df, x, 'temperature'))
+g
+
+for key, d in g:
+    print("Group by Key: {}\n".format(key))
+    print(d)
+
+"""
+

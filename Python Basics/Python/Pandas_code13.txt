@@ -1,0 +1,13 @@
+# CROSS TAB
+import pandas as pd
+df = pd.read_excel("D:/CARRER/My_Course/Daily Classes/Python_Classes/2 Numpy_Pandas/2 Pandas/survey.xls")
+df
+
+pd.crosstab(df.Nationality,df.Handedness)
+pd.crosstab(df.Sex,df.Handedness)
+pd.crosstab(df.Sex,df.Handedness, margins=True)
+pd.crosstab(df.Sex, [df.Handedness,df.Nationality], margins=True)
+pd.crosstab([df.Nationality, df.Sex], [df.Handedness], margins=True)
+pd.crosstab(df.Sex, df.Handedness, normalize='index')
+import numpy as np
+pd.crosstab(df.Sex, df.Handedness, values=df.Age, aggfunc=np.average)

@@ -1,0 +1,32 @@
+## Pivot basics
+
+import pandas as pd
+import numpy as np
+df = pd.read_csv("D:/CARRER/My_Course/Daily Classes/Python_Classes/2 Numpy_Pandas/2 Pandas/weather.csv")
+df
+
+df.pivot(index='city',columns='date')
+
+df.pivot(index='city',columns='date',values="humidity")
+df.pivot(index='date',columns='city')
+df.pivot(index='humidity',columns='city')
+
+#############################
+
+df = pd.read_csv("D:/CARRER/My_Course/Daily Classes/Python_Classes/Numpy_Pandas/Pandas/weather2.csv")
+df
+
+df.pivot_table(index="city",columns="date")
+
+#Margins
+df.pivot_table(index="city",columns="date", margins=True,aggfunc=np.sum)
+
+#############################
+#Grouper -  need to look and calcuation
+df = pd.read_csv("D:/CARRER/My_Course/Daily Classes/Python_Classes/Numpy_Pandas/Pandas/weather3.csv")
+df
+
+df['date'] = pd.to_datetime(df['date'])
+df.pivot_table(index=pd.Grouper(freq='M',key='date'),columns='city')
+#############################
+
