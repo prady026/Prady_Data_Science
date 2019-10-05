@@ -1,0 +1,86 @@
+# Store a value in variable "x"
+x=20
+
+
+# R is case sensitive
+X
+# Modify x
+x=12
+x+10
+x*10
+x-20
+
+#Naming of objects
+x_y=2
+x1=10
+
+1.x=12  #(some error - Cannot start with numeric)
+1x=15   #(some error)
+1_x=15   #(some error)
+
+# Assign the result to another object
+x=15
+y=x+10
+y=x*10
+y=x-20
+
+#Airthematic operations on without naming object
+1+3
+10-2
+3*10
+0/1
+1/0
+1/Inf
+10/2
+23%%4 #Gives reminder
+23%/%4 #Returns quotient
+
+
+abs(1.2)
+abs(-1.2)
+
+sqrt(16)
+log(10)
+log2(16)
+log10(100)
+x^3
+x^4+y^2
+pi
+100*pi
+
+floor(1.9)
+floor(1.5)
+floor(1.2)
+
+floor(-1.9)
+floor(-1.2)
+floor(-1.5)
+
+ceiling(1.9)
+ceiling(1.2)
+ceiling(1.5)
+
+ceiling(-1.9)
+ceiling(-1.2)
+ceiling(-1.5)
+
+round(1.9)
+round(1.2)
+round(1.5)
+
+round(-1.9)
+round(-1.2)
+round(-1.5)
+
+# Overwriting of Objects
+x=100
+x=10
+
+# Finding the objects in work space
+ls()
+
+#Removing of all the objects from work space
+rm(list=ls())
+
+
+

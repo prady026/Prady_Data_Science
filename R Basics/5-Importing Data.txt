@@ -1,0 +1,83 @@
+### To Pull all different packages and datasets available in R libraries
+data(package = .packages(all.available = TRUE))
+
+Ex:
+library(lattice)
+USMortality
+dim(USMortality)
+names(USMortality)
+str(USMortality)
+summary(USMortality)
+
+
+
+#1) Importing data from CSV file
+datacsv1=read.csv(file.choose(),header=T)
+datacsv2=read.csv(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.csv",header=T)
+datacsv3=read.table(file.choose(),header=T,sep=",")
+datacsv4=read.table(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.csv",header=T,sep=",")
+
+#2) Importing data from Text file
+datatxt1=read.delim(file.choose(),header=T)
+datatxt2=read.delim(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.txt",header=T)
+datatxt3=read.table(file.choose(),header=T,sep="\t")
+datatxt4=read.table(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.txt",header=T,sep="\t")
+
+#3)Clipboard
+read.table("clipboard",header=T)
+
+#4) Writing data into another file
+write.csv(datacsv2,"D:/CARRER/My_Course/DailyClasses/Datasets/Lung.csv")
+write.table(datacsv2,"D:/CARRER/My_Course/DailyClasses/Datasets/Lung.csv",sep=",")
+write.table(datatxt2,"D:/CARRER/My_Course/DailyClasses/Datasets/Lung.txt",sep=",",row.names=F)
+write.table(datatxt2,"D:/CARRER/My_Course/DailyClasses/Datasets/Lung.txt",sep="\t",row.names=F)
+
+#5) Importing text file which is incomplete(Not all the row are complete)
+datatxt5=read.table(file="D:/CARRER/My_Course/DailyClasses/Datasets/Sampletext.txt",fill=T,header = F)
+
+#6) Copy the data from excel through clipboard
+Readexcel=read.table("clipboard",header = T)
+
+#7) Efficient ways to download files
+datatxt6=read.table(file="D:/CARRER/My_Course/DailyClasses/Datasets/mixturetext.txt",fill=T,header = F,colClasses =c("character","character","character","character"))
+
+#8) Importing required number of rows
+datacsv7=read.csv(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.csv",header=T,nrow=10)
+datatxt8=read.delim(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.txt",header=T,nrow=10)
+datatxt9=read.table(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.txt",header=T,sep="\t",nrow=10)
+
+#8) Improting required number of rows by skipping required number of rows
+datacsv10=read.csv(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.csv",header=T,nrow=10,skip=5)
+datatxt11=read.delim(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.txt",header=T,nrow=10,skip=5)
+datatxt12=read.table(file="D:/CARRER/My_Course/DailyClasses/Datasets/Lungcapdata.txt",header=T,sep="\t",nrow=10,skip=5)
+
+#9) Importing the data from web which has missing values and convert them "NA" using na.strings = "."
+Chicken.bone=read.table("http://life.bio.sunysb.edu/morph/data/fowlfem.sas.txt",header=F,as.is=T,skip=68,nrows=355,na.strings = ".")
+Chicken.bone=Chicken.bone[,c(2,3,5:8)]
+Chicken.bone=na.omit(Chicken.bone)
+
+#10)
+#Exporting a data file from R to given location
+write.csv(Hitters, "D:/CARRER/My_Course/Basics of R/R_ISLR/filename.csv")
+
+#11) xls files / xlsx files
+library("readxl")
+my_data <- read_excel("my_file.xls")
+my_data <- read_excel("my_file.xlsx")
+
+#To A Tab Delimited Text File
+write.table(Hitters, "D:/CARRER/My_Course/Basics of R/R_ISLR/Hitters.txt", sep="\t")
+
+#To an Excel Spreadsheet
+library(xlsx)
+write.xlsx(Hitters, "D:/CARRER/My_Course/Basics of R/R_ISLR/Hitters.xlsx")
+
+#To SPSS
+# write out text datafile and an SPSS program to read it
+library(foreign)
+write.foreign(mydata, "c:/mydata.txt", "c:/mydata.sps",   package="SPSS")
+
+#To SAS
+# write out text datafile and an SAS program to read it
+library(foreign)
+write.foreign(mydata, "c:/mydata.txt", "c:/mydata.sas",   package="SAS")
